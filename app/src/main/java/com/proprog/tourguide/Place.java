@@ -27,33 +27,18 @@ public class Place {
         return placeName;
     }
 
-    public void setPlaceName(String placeName) {
-        this.placeName = placeName;
-    }
-
     public String getPlaceDesc() {
         return placeDesc;
-    }
-
-    public void setPlaceDesc(String placeDesc) {
-        this.placeDesc = placeDesc;
     }
 
     public int getPlaceImage() {
         return placeImage;
     }
 
-    public void setPlaceImage(int placeImage) {
-        this.placeImage = placeImage;
-    }
-
     public String getPlaceLoc() {
         return placeLoc;
     }
 
-    public void setPlaceLoc(String placeLoc) {
-        this.placeLoc = placeLoc;
-    }
     @Override
     public String toString() {
         return "Place{" +

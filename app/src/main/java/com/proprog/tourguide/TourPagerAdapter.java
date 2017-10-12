@@ -20,16 +20,16 @@ public class TourPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new RestaurantFragment();
-        } else if (position == 1) {
-            return new BankFragment();
-        } else if (position == 2) {
-            return new MallFragment();
-        } else if (position == 3) {
-            return new ImportantPlacesFragment();
+        switch (position) {
+            case 0:
+                return new MallFragment();
+            case 1:
+                return new RestaurantFragment();
+            case 2:
+                return new BankFragment();
+            default:
+                return new ImportantPlacesFragment();
         }
-        return null;
     }
 
     @Override
@@ -39,14 +39,15 @@ public class TourPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return context.getString(R.string.restaurant_fragment_title);
-        } else if (position == 1) {
-            return context.getString(R.string.bank_fragment_title);
-        } else if (position == 2) {
-            return context.getString(R.string.mall_fragment_title);
-        } else {
-            return context.getString(R.string.important_places_fragment_title);
+        switch (position) {
+            case 0:
+                return context.getString(R.string.restaurant_fragment_title);
+            case 1:
+                return context.getString(R.string.bank_fragment_title);
+            case 2:
+                return context.getString(R.string.mall_fragment_title);
+            default:
+                return context.getString(R.string.important_places_fragment_title);
         }
     }
 
