@@ -11,7 +11,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class TourPagerAdapter extends FragmentPagerAdapter {
 
-    Context context;
+    private Context context;
 
     public TourPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
@@ -41,11 +41,11 @@ public class TourPagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return context.getString(R.string.restaurant_fragment_title);
-            case 1:
-                return context.getString(R.string.bank_fragment_title);
-            case 2:
                 return context.getString(R.string.mall_fragment_title);
+            case 1:
+                return context.getString(R.string.restaurant_fragment_title);
+            case 2:
+                return context.getString(R.string.bank_fragment_title);
             default:
                 return context.getString(R.string.important_places_fragment_title);
         }

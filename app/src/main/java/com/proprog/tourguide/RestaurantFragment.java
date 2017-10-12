@@ -1,8 +1,10 @@
 package com.proprog.tourguide;
 
 
+import android.app.Dialog;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,7 +21,7 @@ import java.util.ArrayList;
  */
 public class RestaurantFragment extends Fragment {
 
-    ArrayList<Place> places;
+    private ArrayList<Place> places;
 
     public RestaurantFragment() {
         // Required empty public constructor
@@ -52,12 +54,16 @@ public class RestaurantFragment extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 Place clickedPlace = places.get(position);
                 String loc = clickedPlace.getPlaceLoc();
-                DialogLocationFragment locationFragment = new DialogLocationFragment();
-                locationFragment.setLoc(loc);
-                locationFragment.show(getActivity().getSupportFragmentManager(), "");
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                builder.setMessage(loc)
+                        .setIcon(R.mipmap.ic_launcher)
+                        .setTitle("LOCATION");
+                AlertDialog dialog = builder.create();
+                dialog.show();
             }
         });
         return view;
     }
+
 
 }
