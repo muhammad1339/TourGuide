@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="bank_fragment_title">Banks</string>
+    <string name="restaurant_fragment_title">Restaurants</string>
+    <string name="important_places_fragment_title">Important Places</string>
+    <string name="mall_fragment_title">Malls</string>
+
+    <!-- string array for malls and its description-->
+    <string-array name="malls">
+        <item>Braun</item>
+        <item>Dots Mall</item>
+        <item>Vanity</item>
+        <item>Family Mall</item>
+        <item>Agyad Group</item>
+        <item>B.tech co.</item>
+        <item>ACTIV</item>
+    </string-array>
+    <!-- -->
+    <string-array name="mall_location">
+        <item>3 Ahmed Maher st، Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item> Al Zakeren Mosque, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Atef alsadat St, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>El-Khair, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Anwar El-Sadat, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+    </string-array>
+    <!-- -->
+    <string-array name="mall_desc">
+        <item>Accessories</item>
+        <item>Clothes</item>
+        <item>Fresh Food</item>
+        <item>Clothes &amp; Furniture</item>
+        <item>Cars and Trucks</item>
+        <item>Tech Devices</item>
+        <item>Electronics</item>
+    </string-array>
+    <!-- end of mall -->
+
+    <!-- string array for banks and its description-->
+    <string-array name="banks">
+        <item>National Bank Of Egypt</item>
+        <item>Egyptian Arab Land Bank</item>
+        <item>CIB - Commercial International Bank</item>
+        <item>Banque Misr</item>
+        <item>Banque Misr For Islamic Transaction</item>
+        <item>Principal Bank</item>
+    </string-array>
+    <!-- -->
+    <string-array name="bank_location">
+        <item>Gamal Abd El-Nasir, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>5 Atef alsadat St، Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Gamal Abd El-Nasir, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Gamal Abdel Nasser St.، SHEBEIN EL KAWM، EL MONOFEYA، Menofia Governorate</item>
+        <item>Gamal Abd El-Nasir, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>21 Hathot.st, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+    </string-array>
+    <!-- -->
+    <string-array name="bank_desc">
+        <item>belong government</item>
+        <item>belong government</item>
+        <item>Commercial Bank</item>
+        <item>belong government</item>
+        <item>belong government</item>
+        <item>Project Provider</item>
+    </string-array>
+    <!-- end of bank -->
+
+    <!-- string array for restaurants and its description-->
+    <string-array name="restaurants">
+        <item>Chili\'s Grill</item>
+        <item>Mr.minion</item>
+        <item>Soup &amp; Pasta</item>
+        <item>Creviano</item>
+        <item>Trefl Cafe</item>
+        <item>El Tayebat Restaurant</item>
+        <item>Hot Mix</item>
+        <item>Gardenia</item>
+    </string-array>
+    <!-- -->
+    <string-array name="restaurant_location">
+        <item>Gamal Abd El-Nasir, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate 11351</item>
+        <item>Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Anwar El-Sadat, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Atef alsadat St, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Atef alsadat St, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Haret Al Amai, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Dr Mostafa El-Naggar, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Anwar El-Sadat, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+    </string-array>
+    <!-- -->
+    <string-array name="restaurants_desc">
+        <item>Roast</item>
+        <item>Snacks</item>
+        <item>Pasta,Meat,more</item>
+        <item>Sandwich</item>
+        <item>Hot Drinks</item>
+        <item>National Meals</item>
+        <item>Spicy Food</item>
+        <item>Sea Food</item>
+    </string-array>
+    <!-- end of restaurants -->
+
+    <!-- string array for important places and its description-->
+    <string-array name="important_places">
+        <item>Resala theme</item>
+        <item>Menoufia University Hotel</item>
+        <item>Shibin Al-koum Stadium</item>
+        <item>Club Republic Shebeen</item>
+        <item>Educational Hospital</item>
+        <item>Yard test driving licenses</item>
+    </string-array>
+    <!-- -->
+    <string-array name="important_places_location">
+        <item>Talaat Harb, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Stad Al Gamaa, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Gamal Abd El-Nasir, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+        <item>Gamal Abdel Nasser St.، SHEBEIN EL KAWM، EL MONOFEYA، Menofia Governorate</item>
+        <item>Talaat Harb, Qism Shebeen El-Kom, Shebeen El-Kom, Menofia Governorate</item>
+    </string-array>
+    <!-- -->
+    <string-array name="important_places_desc">
+        <item>Philanthropy</item>
+        <item>Hosting</item>
+        <item>Sport</item>
+        <item>Sport</item>
+        <item>Health</item>
+        <item>Driving Test</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- end of important places -->
+</resources>
